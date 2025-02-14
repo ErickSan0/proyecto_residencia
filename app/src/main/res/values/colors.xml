@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores básicos -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="azul_marino">#134E90</color>
+    <color name="rojo_oscuro">#CF112D</color>
+
+    <!-- Colores de Material Design (paleta básica) -->
+    <color name="material_red">#F44336</color>
+    <color name="material_pink">#E91E63</color>
+    <color name="material_purple">#9C27B0</color>
+    <color name="material_deep_purple">#673AB7</color>
+    <color name="material_indigo">#3F51B5</color>
+    <color name="material_blue">#2196F3</color>
+    <color name="material_light_blue">#03A9F4</color>
+    <color name="material_cyan">#00BCD4</color>
+    <color name="material_teal">#009688</color>
+    <color name="material_green">#4CAF50</color>
+    <color name="material_light_green">#8BC34A</color>
+    <color name="material_lime">#CDDC39</color>
+    <color name="material_yellow">#FFEB3B</color>
+    <color name="material_amber">#FFC107</color>
+    <color name="material_orange">#FF9800</color>
+    <color name="material_deep_orange">#FF5722</color>
+    <color name="material_brown">#795548</color>
+    <color name="material_grey">#9E9E9E</color>
+    <color name="material_blue_grey">#607D8B</color>
+
+    <!-- Colores adicionales útiles -->
+    <color name="primary_color">#6200EE</color> <!-- Color primario -->
+    <color name="primary_dark">#3700B3</color> <!-- Color primario oscuro -->
+    <color name="accent_color">#03DAC6</color> <!-- Color de acento -->
+    <color name="background">#F5F5F5</color> <!-- Color de fondo -->
+    <color name="text_primary">#212121</color> <!-- Texto principal -->
+    <color name="text_secondary">#757575</color> <!-- Texto secundario -->
+    <color name="divider">#BDBDBD</color> <!-- Color de divisores -->
+
+    <!-- Colores para estados (ejemplo: botones) -->
+    <color name="button_normal">#6200EE</color>
+    <color name="button_pressed">#3700B3</color>
+    <color name="button_disabled">#9E9E9E</color>
+
+    <!-- Colores para notificaciones y alertas -->
+    <color name="success">#4CAF50</color> <!-- Éxito -->
+    <color name="warning">#FFC107</color> <!-- Advertencia -->
+    <color name="error">#F44336</color> <!-- Error -->
+    <color name="info">#2196F3</color> <!-- Información -->
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="azul_marino_suave">#1A237E</color>
+
+</resources>
