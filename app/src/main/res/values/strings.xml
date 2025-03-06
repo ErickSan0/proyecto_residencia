@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">CombuApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Estacion">
+        <item>Washmobile</item>
+        <item>Cuauhtemoc</item>
+        <item>La Gloria</item>
+        <item>Libertad Aeropuerto</item>
+        <item>Jibarito</item>
+        <item>Tecate Estadio</item>
+        <item>Hacienda Santa Maria</item>
+        <item>Centro</item>
+        <item>Cañaveral</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>Finanzas</item>
+        <item>Direccion</item>
+        <item>Sistemas</item>
+        <item>Mantenimiento</item>
+    </string-array>
 </resources>

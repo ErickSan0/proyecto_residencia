@@ -28,9 +28,14 @@
     <style name="LoginTextInputOuterFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">15dp</item>
         <item name="android:layout_marginTop">15dp</item>
         <item name="android:layout_marginBottom">15dp</item>
+        <item name="boxStrokeColor">@color/azul_marino</item> <!-- Cambia el color del borde cuando está enfocado -->
+        <item name="boxStrokeWidth">2dp</item> <!-- Grosor del borde cuando está enfocado -->
+        <item name="boxStrokeWidthFocused">3dp</item> <!-- Aumenta el grosor cuando está enfocado -->
     </style>
+
     <style name="LoginTextInputInnerFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -39,6 +44,10 @@
         <item name="android:maxLines">1</item>
         <item name="android:textSize">14sp</item>
         <item name="android:singleLine">true</item>
+        <item name="boxStrokeColor">@color/azul_marino</item> <!-- Borde azul marino al hacer clic -->
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">3dp</item>
     </style>
+
 
 </resources>

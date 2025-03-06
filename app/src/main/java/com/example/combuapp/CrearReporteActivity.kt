@@ -27,33 +27,9 @@ class CrearReporteActivity: AppCompatActivity() {
         window.statusBarColor = android.graphics.Color.TRANSPARENT
 
 
-        val btnVolver = findViewById<Button>(R.id.btnvolver)
-
-        btnVolver.setOnClickListener {
-            mostrarDialogoConfirmacion()
-        }
-
-
-
     }
-    private fun mostrarDialogoConfirmacion() {
-        val builder = AlertDialog.Builder(this)
-        builder.setTitle("Confirmación")
-            .setMessage("¿Seguro que quieres salir? Los cambios no se guardarán.")
-            .setPositiveButton("Sí") { _, _ ->
-                val intent = Intent(this@CrearReporteActivity, PanelUsuarioActivity::class.java)
-                startActivity(intent)
-                overridePendingTransition(0, 0)
-                finish() // Cierra la actividad actual
-            }
-            .setNegativeButton("Cancelar", null)
-
-        val dialog = builder.create()
-        dialog.show()
 
 
-
-    }
     override fun onBackPressed() {
 
     }

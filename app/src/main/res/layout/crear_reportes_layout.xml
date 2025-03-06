@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".PanelUsuarioActivity">
 
-    <!-- FrameLayout Superior (Fijo) -->
     <FrameLayout
         android:id="@+id/frameSuperior"
         android:layout_width="0dp"
@@ -38,7 +37,6 @@
 
     </FrameLayout>
 
-    <!-- Contenido Desplazable -->
     <ScrollView
         android:id="@+id/contenedorScroll"
         android:layout_width="match_parent"
@@ -62,11 +60,9 @@
                 android:textColor="@color/white"
                 android:padding="8dp"/>
 
-            <!-- Agrega más contenido aquí -->
         </LinearLayout>
     </ScrollView>
 
-    <!-- FrameLayout Inferior (Fijo) -->
     <FrameLayout
         android:id="@+id/frameInferior"
         android:layout_width="match_parent"

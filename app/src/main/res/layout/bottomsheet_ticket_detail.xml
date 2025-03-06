@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txt_ticket_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título del Ticket"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_ticket_estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado: Abierto"
+        android:textSize="16sp"
+        android:textColor="@color/azul_marino"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txt_ticket_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha: 12/03/2025"
+        android:textSize="16sp"
+        android:textColor="@color/azul_marino"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/txt_ticket_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción del problema"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_abrir_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Chat"
+        android:backgroundTint="@color/azul_marino"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
