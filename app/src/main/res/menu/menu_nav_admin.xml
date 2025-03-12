@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_lista_admin"
+        android:icon="@drawable/ic_lista"
+        android:title="Ver reportes"/>
+
+    <item
+        android:id="@+id/ic_gestionar_usuarios"
+        android:icon="@drawable/useradd"
+        android:title="Registrar usuarios"/>
+
+    <item
+        android:id="@+id/ic_reportes"
+        android:icon="@drawable/crearrepo"
+        android:title="Reportes"/>
+
+    <item
+        android:id="@+id/ic_ajustes_admin"
+        android:icon="@drawable/ic_ajustes"
+        android:title="Ajustes"/>
+
+</menu>
